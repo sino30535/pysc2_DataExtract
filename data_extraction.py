@@ -169,7 +169,7 @@ def main(unused_argv):
                             'multi_select', 'cargo', 'cargo_slots_available', 'build_queue', 'control_groups']
 
           # Create replay data foldr
-          data_folder = '../replay_data/' + FLAGS.replay.split('\\')[-1] + \
+          data_folder = './replay_data/' + FLAGS.replay.split('\\')[-1] + \
                         'player_{}'.format(FLAGS.observed_player)
           if not os.path.exists(data_folder):
             os.makedirs(data_folder)
