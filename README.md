@@ -4,7 +4,7 @@ A tutorial of data extraction for starcraft II replays using Deepmind's starcraf
 # Environment
 Please follow [Pysc2 repo](https://github.com/deepmind/pysc2) to install pysc2 and other dependencies. I am currently running
 and testing data_extraction.py at starcraft II version 4.1.1. Please note that sc2 replays are version dependent, execution will 
-fail if replay and game have different
+fail if replay was made with a different version of the game.
 version.
 
 # Getting started
