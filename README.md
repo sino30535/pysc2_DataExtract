@@ -22,7 +22,8 @@ Additional flags:
 ```
 
 # Data
-The data will be download to ./replay_data/, screen and minimap features use sparse matrix to store only the nonzero elements and their position indices. Please check replay_data_visualize.ipynb for more details.
+- The data will be download to ./replay_data/, screen and minimap features use sparse matrix to store only the nonzero elements and their position indices. Please check replay_data_visualize.ipynb for more details.
+- Replay_example.7z is an example of replay data used in replay_data_visualize.ipynb.
 
 # Troubleshooting
 If you have any problem running script, feel free to leave a comment.
