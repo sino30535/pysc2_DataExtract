@@ -1,5 +1,5 @@
 # Pysc2_replay_data_extraction
-A tutorial of data extraction for starcraft II replays using Deepmind's starcraft II API pysc2.
+A tutorial of data extraction for starcraft II replays using Deepmind's starcraft II RL environment pysc2.
 
 # Environment
 Please follow [Pysc2 repo](https://github.com/deepmind/pysc2) to install pysc2 and other dependencies. I am currently running
