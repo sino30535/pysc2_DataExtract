@@ -157,12 +157,12 @@ def main(unused_argv):
           obs_t = feat.transform_obs(obs.observation)
 
           # Screen Features
-          screen_features = ['heigh_map', 'visibility_map', 'creep', 'power', 'player_id', 'player_relative',
+          screen_features = ['height_map', 'visibility_map', 'creep', 'power', 'player_id', 'player_relative',
                              'unit_type', 'selected', 'unit_hit_point', 'unit_hit_point_ratio', 'unit_energy',
                              'unit_energy_ratio', 'unit_shield', 'unit_shield_ratio', 'unit_density',
                              'unit_density_ratio', 'effects']
           # Minimap Features
-          minimap_features = ['heigh_map', 'visibility_map', 'creep', 'camera', 'player_id', 'player_relative',
+          minimap_features = ['height_map', 'visibility_map', 'creep', 'camera', 'player_id', 'player_relative',
                               'selected']
           # Other features
           other_features = ['player', 'game_loop', 'score_cumulative', 'available_actions', 'single_select',
