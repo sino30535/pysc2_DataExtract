@@ -137,7 +137,7 @@ def main(unused_argv):
       map_path = FLAGS.map_path or info.local_map_path
       if map_path:
         start_replay.map_data = run_config.map_data(map_path)
-        controller.start_replay(start_replay)
+      controller.start_replay(start_replay)
     if FLAGS.render:
       renderer = renderer_human.RendererHuman(
           fps=FLAGS.fps, step_mul=FLAGS.step_mul,
